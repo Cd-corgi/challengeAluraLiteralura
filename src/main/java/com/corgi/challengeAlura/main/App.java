@@ -85,7 +85,6 @@ public class App {
         System.out.print("> ");
         libroBuscar = teclado.nextLine();
         String finalName = url + "?search=" + libroBuscar.toLowerCase().replace(" ", "%20");
-        System.out.println(finalName);
         var json = consulta.Consultar(finalName);
         Datos datoslibro = convertirDatos.getData(json, Datos.class);
         return datoslibro;
