@@ -7,9 +7,7 @@ import com.corgi.challengeAlura.repository.AutorRepo;
 import com.corgi.challengeAlura.repository.LibrosRepo;
 import com.corgi.challengeAlura.services.Consulta;
 import com.corgi.challengeAlura.services.ConvertirDatos;
-import org.springframework.http.converter.json.GsonBuilderUtils;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
